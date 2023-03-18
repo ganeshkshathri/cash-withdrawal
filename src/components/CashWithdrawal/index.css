@@ -1,0 +1,118 @@
+
+.container{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+}
+@media screen  and (min-width:768px){
+    
+}
+.profile-pic{
+    width:50px; height:50px; background-color: #c7d2fe; border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7c3aed;
+    margin-right: 10px;
+}
+.top-part{
+    display: flex;
+
+}
+.balance-part{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto';
+    justify-content: space-between;
+    
+}
+.profile-name{
+    color: #d4d2db;
+    font-size: 16px;
+    font-family: 'Roboto';
+    padding-left: 10px;
+}
+
+.card{
+    padding:5px;
+    font-family: 'Roboto';
+}
+.money{
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+.whitecolor{
+    color: white;
+    font-family: 'Roboto';
+    font-size: 10px;
+}
+@media screen and (min-width:768px) {
+    .whitecolor{
+        color: white;
+        font-family: 'Roboto';
+        font-size: 20px;
+    } 
+}
+.last-part{
+    display: flex;
+    font-family: 'Roboto';
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.moneytext{
+    color: #585076;
+    font-size: 9px;
+    font-family: 'Roboto';
+}
+.your-balance{
+    color: #585076;
+    font-family: 'Roboto';
+}
+.inner-container{
+    background-color: #150b3e;
+    
+    width: 230px;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    padding: 20px;
+    
+}
+@media screen  and (min-width:768px){
+    .inner-container{
+        background-color: #150b3e;
+        height: 70vhvh;
+        width: 350px;
+        border-radius: 10px;
+        font-family: 'Roboto';
+        padding: 30px;
+        
+    } 
+}
+.heading{
+    text-align: center;
+    color: #ff8542;
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+@media screen  and (min-width:768px){
+    .heading{
+        text-align: center;
+        color: #ff8542;
+        font-family: 'Roboto';
+    }
+}
+.paragraph{
+    font-family: "Roboto";
+   
+
+}
+@media screen  and (min-width:768px){
+    .paragraph{
+        font-family: "Roboto";
+    
+    }
+}
